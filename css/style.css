@@ -1,0 +1,337 @@
+:root{
+
+	--primario :#f2f2f2;
+	--gris: #9C9998;
+	--boton:#f8f9fa;
+}
+
+
+
+html{
+	box-sizing: border-box;
+
+	font-size: 62.5%; /** Reset de REMS - 62-5% = 10PX DE 16PX **/
+	max-width: 99.8%;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+
+}
+
+
+body{
+
+font-family: arial,sans-serif;
+font-size:1.4rem;
+
+}
+
+a{
+
+	font-family: "roboto";
+	text-decoration: none;
+
+}
+
+svg{
+	margin-top: 0.7rem;
+	width: 2rem;
+	height: 2rem;
+	color:;
+
+}
+
+header {
+	width: 99%;
+	
+	
+
+}
+
+nav{
+
+display:flex;
+justify-content: flex-end;	
+
+margin-top: 1.4rem;
+
+
+}
+
+.nav-site-ingreso{
+
+	display: flex;
+
+	width: 23%;
+	justify-content:space-around;
+}
+
+.nav-ingreso{
+	width: 39%;
+	
+	display: flex;
+	justify-content: space-around;
+	margin-right: 1rem;
+	padding:1rem 0 0 0 ;
+}
+.nav-ingreso a{
+	color: black;
+	font-size:1.3rem;
+	font-weight:500;
+}
+
+.nav-iniciar{
+	display: flex;
+	justify-content: space-between;
+
+	width: 52%;
+	vertical-align: middle;
+}
+
+
+.nav-iniciar-bottom{
+
+background: #1a73e8;
+border: 1px solid transparent;
+color: #fff;
+padding: 0.8rem  1.3rem;
+text-align: center;
+font-weight: 500;
+letter-spacing: 0.25px;
+line-height: 16px;
+text-decoration: none;
+margin-left: 1px;
+border-radius: 4px;
+}
+
+.nav-iniciar-bottom a{
+
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+/* BARRA DE BUSQUEDAD ---------------------------------------*/
+
+@media (max-width: 768px){
+	.nav-site-ingreso{
+		
+		width: 100%;
+		
+		}
+		.nav-ingreso{
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			
+			text-align: center;
+			font-size: 3rem;
+			display: none;
+		}
+
+
+		.nav-site-ingreso{
+
+		display: flex;
+
+		width: 100%;
+		flex-direction: column;
+		background-color: yellow;
+
+		}
+
+
+		.nav-iniciar-bottom a{
+
+		text-decoration:underline;
+		color: #fff;
+		width: 200rem;
+		}
+		
+}
+/*-------------------------------------------------------------------------*/
+
+
+
+
+.container{
+
+	text-align: center;
+	margin-top: 10rem;
+}
+/************************************/
+
+
+
+.container-buscador{
+
+	display: flex;
+	margin: 0 auto;
+	margin-top: 2.3rem;
+	position: relative;
+	width: 40%;
+	text-align: center;
+	border-radius: 24px;
+	border: 1px solid #dfe1e5;
+
+}
+.container-buscador .container-barra{
+
+	width: 80%;
+}
+
+.container-lupa{
+
+	width:5%;
+	height:2rem;
+	margin-left: 1.2rem;
+	padding:0 2rem 0 0;
+}
+
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.container-lupa .lupa{
+
+
+	margin-top: 3px;
+	display: inline-block;
+    fill: #9aa0a6;
+    
+    width: 2rem;
+    color: red;
+	
+
+
+}
+
+.container-barra .gLFyf{
+
+	width: 97%;
+	
+	height: 4.2rem;
+	outline: none;
+	border: none;
+	font-size: 1.6rem;
+/*	background-color:yellow; */
+}
+
+
+/*¨-------------------IMPUT  DE BUSQUEDAD -------------*/
+
+.nav-parrafos{
+
+	display: flex;
+	text-align: center;
+	width: 27%;
+	
+	margin: 0 auto;
+	margin-top: 2rem;
+	justify-content: space-around;
+	 border-radius: 4px;
+	 color: #3c4043;
+	 font-family: arial,sans-serif;
+	 font-size: 1.4rem;
+	 padding: 0 0rem;
+	
+
+}
+
+.nav-parrafos input{
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 1.4rem;
+    margin: 1rem 0 0 0;
+    padding: 0 1.4rem;
+    line-height: 2.7rem;
+    height: 3.5rem;
+    min-width: 5.4rem;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nav-espacio{
+
+	display: flex;
+	margin-top: 2rem;
+	justify-content: center;
+	font: 700;
+
+
+}
+.nav-espacio span{
+
+	font-weight: 700;
+}
+.nav-espacio a{
+
+	text-decoration: underline;
+}
+
+/*--------foooter ****************************/
+
+footer{
+
+	color: rgba(0,0,0,.54)	;
+	background-color: var(--primario);
+	width:100%;
+	position: fixed;
+	bottom:0;
+	
+
+	
+}
+
+
+
+
+
+.footer-pais{
+	
+	padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.footer-detalle{
+
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 	
+ 	padding: 2rem;
+  
+
+}
+.footer-detalle-datos{
+	display: flex;
+	justify-content: space-between;
+	
+	width:40% ;
+	text-align: center;
+	margin-left:  1rem;
+
+
+}
+
+.footer-publicidad{
+
+
+	display: flex;
+	width:20%;
+	margin-right: 2rem;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}

@@ -1,0 +1,99 @@
+header::before {
+height: 100vh;
+background : url('../img/hawaii.jpg');
+background-size: cover;
+background-position: center center;
+background-color: rgba(0,0,0,0.7);
+opacity: 10;
+}
+
+footer {
+background-color:#1e465f;
+color: white;
+height: 100px;
+text-align: center;
+padding: 20px;
+
+
+}
+
+.verde{
+    background: color #96c93e;
+
+}
+.carousel-item :active {
+background: url('../img/hawaii.jpg');
+background-color: rgba(0, 0, 0, .6);
+background-color: rgba(0 0 0 / 60%);
+background-blend-mode: soft-light;
+
+}
+
+#img-bsas {
+
+filter: brightness(50%);
+}
+
+#info-bsas{
+text-align: right;
+padding-top: 30%;
+padding-left: 55%;
+padding-right: 5%;
+color: white;
+}
+
+#div-bsas{
+width: 100%;
+height: 50%;
+margin-top: -9%;
+clip-path: inset(15% 0px 0px 0px);
+
+}
+
+.navbar {
+background-color: #353a40;
+color: white;
+}
+
+#anw{
+
+    color: white;
+}
+
+.navbar-brand{
+color:#989b9d ;
+}
+
+#ang{
+
+    color:#2a9d44 ;
+}
+
+.holulu{
+
+background-color:
+#353a40 ;
+color: white;
+}
+
+.btn-ct{
+
+    margin-bottom: 1rem;
+}
+#comprar{
+
+color:#97c93e ;
+}
+
+
+#boton-borrar{
+ background-color: #97c93e;
+}
+
+#boton-resumen{
+    background-color: #97c93e;
+}
+.gap-2{
+
+    gap:0.5 rem;
+}
